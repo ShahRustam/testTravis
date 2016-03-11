@@ -21,7 +21,7 @@ before_install:
 		curl https://sdk.cloud.google.com | bash;
   fi
 - exec -l $SHELL
-- gcloud init;
+- gcloud init
   fi
 - tar -xzf credentials.tar.gz
 - mkdir -p lib
