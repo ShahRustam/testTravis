@@ -16,7 +16,7 @@ HOST='http://test-travis-1246.appspot.com'
 # [START e2e]
 response = urllib2.urlopen("{}/get_author/ulysses".format(HOST))
 html = response.read()
-assert(html == "Jame Joyce")
+assert(html == "James Joyce")
 # [END e2e]
 
 
