@@ -19,8 +19,6 @@ before_install:
 # If the SDK is not already cached, download it and unpack it
 - rm -rf /home/travis/google-cloud-sdk
 - curl https://sdk.cloud.google.com | bash;
-
-- gcloud init
 - tar -xzf credentials.tar.gz
 - mkdir -p lib
 # Here we use the decrypted service account credentials to authenticate the command line tool
