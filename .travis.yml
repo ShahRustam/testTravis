@@ -1,5 +1,5 @@
 # Use Dockerized infrastructure
-sudo: true
+sudo: false
 language: python
 # Cache our Gcloud SDK between commands
 cache:
